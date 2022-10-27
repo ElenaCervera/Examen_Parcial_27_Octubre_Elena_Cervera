@@ -20,7 +20,7 @@ class Alumno():
         print("El alumno {} se ha agregado con éxito".format(self.nombre))
 
     def __str__(self):
-        return ("Lo que quiero mostrar")
+        return ("El alumno {} ha sacado una nota de {}".format(self.nombre, self.nota))
 
     def calificacion(self):
         if self.nota < 5:

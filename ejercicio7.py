@@ -79,7 +79,18 @@ class Polinomio (object):
                     agregar_termino(paux, termino, valor)
             pol2=pol2.sig
             pol1= pol1.sig
-        return paux            
+        return paux   
+
+    def eliminar(polinomio1, polinomio2):
+        dato=None
+        if polinomio1.inicio.info = polinomio2:
+            dato-polinomio1.inicio.info
+            polinomio1.inicio =polinomio1.inicio.sig
+            polinomio1.tamanio -= 1
+        else:
+            anterior=polinomio1.inicio
+            actual=polinomio1.inicio.sig    
+
 
 
 
